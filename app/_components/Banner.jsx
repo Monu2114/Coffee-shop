@@ -16,7 +16,7 @@ export default function Banner() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 300000,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         // pagination={{
@@ -26,7 +26,7 @@ export default function Banner() {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide className="cursor-pointer">
           <div className="container ml-10 md:pt-20 md:pb-10">
             <div className="grid grid-cols-2 ml-10">
               <div className="relative">
@@ -70,6 +70,47 @@ export default function Banner() {
                     height={100}
                   />
                 </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="cursor-pointer">
+          <div className="container ml-10 md:pt-20 md:pb-10">
+            <div className="grid grid-cols-2 ml-10">
+              <div className="relative">
+                <h1 className="text-8xl font-bold py-4 ">
+                  Alowishus Delicious Coffee{" "}
+                  <div className="absolute top-56 mt-1 right-52">
+                    <Image
+                      src="/coffee/cafe.png"
+                      width={80}
+                      alt="award"
+                      height={80}
+                    />
+                  </div>
+                </h1>
+                <p>Perfect place for some healthy and tasty milkshakes</p>
+
+                <div className="flex gap-4 py-6">
+                  <Button className="p-7 rounded-md shadow-lg hover:scale-105 transition-all text-lg font-normal tracking-wide">
+                    Download App
+                  </Button>
+                  <Button
+                    className="p-7 rounded-md shadow-lg hover:scale-105 transition-all text-lg font-normal tracking-wide"
+                    variant="outline"
+                  >
+                    Shop Coffee
+                  </Button>
+                </div>
+              </div>
+              <div className="relative">
+                <Image
+                  src="/coffee/coffee-mid.png"
+                  width={600}
+                  height={600}
+                  alt="Milkshake"
+                />
               </div>
             </div>
           </div>
