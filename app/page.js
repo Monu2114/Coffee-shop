@@ -3,7 +3,7 @@ import Banner from "./_components/Banner";
 import Explore from "./_components/Explore";
 import Order from "./_components/Order";
 import Selling from "./_components/Selling";
-import InstantCofee from "./_components/InstantCofee";
+import InstantCoffee from "./_components/InstantCoffee";
 export default function Home() {
   return (
     <>
@@ -12,7 +12,7 @@ export default function Home() {
       <Explore />
       <Order />
       <Selling />
-      <InstantCofee />
+      <InstantCoffee />
     </>
   );
 }
