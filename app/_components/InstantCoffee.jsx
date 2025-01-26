@@ -5,8 +5,8 @@ import React from "react";
 const InstantCofee = () => {
   return (
     <div className="bg-gray-50">
-      <div className="conatiner ">
-        <div className="grid grid-cols-2 gap-28">
+      <div className="conatiner">
+        <div className="grid grid-cols-2 gap-80">
           <div className=" ml-72 flex flex-col gap-8 mt-48">
             <h1 className="text-5xl font-bold w-96">
               Instant Coffee At Your Home
@@ -20,28 +20,20 @@ const InstantCofee = () => {
               Download Your App
             </Button>
           </div>
-          <div className="InstantCoffee_col relative mt-20 flex">
+          <div className="InstantCoffee_col relative mt-10 flex">
             <Image
-              className="rounded-2xl border-2 border-gray-100 absolute top-10  "
+              className="-rotate-12 rounded-2xl border-2 border-gray-100"
               src="/coffee/coffee-banner.png"
               alt="banner"
               width={250}
               height={250}
             />
             <Image
-              className="rounded-2xl border-2  border-gray-100  "
+              className=" rounded-2xl border-2  border-gray-100 absolute left-24 "
               src="/coffee/coffee-banner.png"
               alt="banner"
               width={250}
               height={250}
-            />
-
-            <Image
-              className=""
-              src="/coffee/hand-drawn.png"
-              alt="banner"
-              width={280}
-              height={100}
             />
           </div>
         </div>
