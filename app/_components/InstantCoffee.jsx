@@ -4,7 +4,7 @@ import React from "react";
 
 const InstantCofee = () => {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 py-12">
       <div className="conatiner">
         <div className="grid grid-cols-2 gap-80">
           <div className=" ml-72 flex flex-col gap-8 mt-48">
