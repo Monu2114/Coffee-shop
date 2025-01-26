@@ -4,6 +4,7 @@ import Explore from "./_components/Explore";
 import Order from "./_components/Order";
 import Selling from "./_components/Selling";
 import InstantCoffee from "./_components/InstantCoffee";
+import Testimonial from "./_components/Testimonials";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
       <Order />
       <Selling />
       <InstantCoffee />
+      <Testimonial />
     </>
   );
 }
