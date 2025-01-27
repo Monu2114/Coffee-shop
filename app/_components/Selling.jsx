@@ -13,7 +13,7 @@ export default function Selling() {
           </div>
         </div>
         <div
-          className="grid grid-cols-3  w-4/5 ml-28 cursor-pointer gap-80 py-20"
+          className="md:grid grid-cols-3 md:w-4/5 md:ml-28 cursor-pointer gap-80 py-20"
           data-aos="fade-left"
           data-aos-delay="50"
           data-aos-duration="1200"

@@ -8,12 +8,12 @@ export default function Explore() {
           <div className="grid md:grid-cols-6 text-center md:py-16">
             <div className="md:col-start-3 col-span-3">
               <h1 className="text-5xl font-bold">Explore Our Alowishus</h1>
-              <p className="py-2 text-gray-600 text-lg">
+              <p className="py-2 md:w-2/4 mx-auto text-gray-600 text-lg">
                 A drink from our place will keep your anxiety away
               </p>
             </div>
           </div>
-          <div className="grid md:grid-cols-3 md:gap-14 w-4/5 ml-48 cursor-pointer">
+          <div className="grid md:grid-cols-3 gap-6 md:gap-14 md:w-4/5 md:ml-48 ml-2 cursor-pointer">
             <div
               className="w-80 h-[400px] shadow-lg  rounded-xl hover:shadow-xl "
               data-aos="fade-left"

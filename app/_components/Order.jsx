@@ -5,9 +5,13 @@ export default function Order() {
   return (
     <>
       <div className="bg-gray-100">
-        <div className="container ml-20 ">
-          <div className="grid grid-cols-2 gap-32">
-            <div className="ml-20" data-aos="fade-up" data-aos-duration="1300">
+        <div className="container md:ml-20 ml-10">
+          <div className="md:grid grid-cols-2 md:gap-32">
+            <div
+              className="md:ml-20"
+              data-aos="fade-up"
+              data-aos-duration="1300"
+            >
               <Image
                 src="/coffee/coffee-mid.png"
                 alt="Shakes"
@@ -16,7 +20,7 @@ export default function Order() {
               ></Image>
             </div>
             <div
-              className="flex flex-col gap-2 py-20 "
+              className="flex flex-col gap-2 md:py-20"
               data-aos="fade-down"
               data-aos-duration="1300"
             >

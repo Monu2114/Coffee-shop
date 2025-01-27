@@ -17,18 +17,18 @@ export default function Testimonials() {
   return (
     <div className="container py-28">
       <div className=" flex flex-col gap-10 ">
-        <div className=" flex flex-col items-center gap-8 ml-52">
+        <div className=" flex flex-col items-center gap-8 md:ml-52 ml-10">
           <div className="flex flex-col justify-center items-center gap-6 ">
             <h1 className="text-5xl font-bold ">Client Testimonial</h1>
 
-            <div className="text-gray-600  w-3/5 top-24 px-20 py-2">
+            <div className="text-gray-600  md:w-3/5 md:top-24 md:px-20 py-2">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
                 optio quisquam dicta maxime, perferendis veniam!
               </p>
             </div>
           </div>
-          <div className="flex justify-center gap-x-6 ml-12">
+          <div className="flex justify-center gap-x-6 md:ml-12">
             <div className="hidden sm:block -space-x-2 overflow-hidden">
               <img
                 className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
@@ -73,7 +73,7 @@ export default function Testimonials() {
           </div>
         </div>
 
-        <div className="ml-24 container">
+        <div className="ml-24 hidden sm:block container">
           <Swiper
             slidesPerView={3}
             spaceBetween={30}

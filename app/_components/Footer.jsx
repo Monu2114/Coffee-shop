@@ -17,7 +17,7 @@ const footer = () => {
             height={200}
           />
 
-          <div className="flex text-gray-500  text-sm  gap-8 mt-12">
+          <div className="md:flex flex flex-col text-gray-500  text-sm  gap-8 mt-12">
             <a href="#" className="text-lg/4 font-medium text-gray-900">
               Cafe Menu
             </a>

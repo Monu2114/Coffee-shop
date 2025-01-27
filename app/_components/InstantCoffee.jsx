@@ -6,13 +6,13 @@ const InstantCofee = () => {
   return (
     <div className="bg-gray-50 py-12">
       <div className="conatiner">
-        <div className="grid grid-cols-2 gap-80">
+        <div className="md:grid grid-cols-2 md:gap-80">
           <div
-            className=" ml-72 flex flex-col gap-8 mt-48"
+            className=" md:ml-72 ml-10 flex flex-col gap-8 mt-48"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            <h1 className="text-5xl font-bold w-96">
+            <h1 className="text-5xl font-bold md:w-96">
               Instant Coffee At Your Home
             </h1>
             <p className="text-gray-500">
