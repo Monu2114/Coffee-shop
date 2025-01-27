@@ -18,7 +18,7 @@ export default function Testimonials() {
     <div className="container ">
       <div className="mt-28 flex flex-col gap-20">
         <div className=" flex flex-col items-center relative gap-28">
-          <div className="flex flex-col gap-20">
+          <div className="flex flex-col">
             <h1 className="text-5xl font-bold ">Client Testimonial</h1>
             <div className="text-gray-400 -ml-2 w-1/3 absolute top-20 px-2">
               <p>
