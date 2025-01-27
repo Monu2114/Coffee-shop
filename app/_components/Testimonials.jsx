@@ -15,19 +15,20 @@ import { FreeMode } from "swiper/modules";
 
 export default function Testimonials() {
   return (
-    <div className="container ">
-      <div className="mt-28 flex flex-col gap-20">
-        <div className=" flex flex-col items-center relative gap-28">
-          <div className="flex flex-col">
+    <div className="container">
+      <div className="mt-28 flex flex-col gap-20 ">
+        <div className=" flex flex-col items-center gap-8 ml-52">
+          <div className="flex flex-col justify-center items-center gap-6 ">
             <h1 className="text-5xl font-bold ">Client Testimonial</h1>
-            <div className="text-gray-400 -ml-2 w-1/3 absolute top-20 px-2">
+
+            <div className="text-gray-600  w-3/5 top-24 px-20 py-2">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
                 optio quisquam dicta maxime, perferendis veniam!
               </p>
             </div>
           </div>
-          <div className="flex  justify-center gap-x-6 ml-12">
+          <div className="flex justify-center gap-x-6 ml-12">
             <div className="hidden sm:block -space-x-2 overflow-hidden">
               <img
                 className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
