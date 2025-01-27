@@ -97,7 +97,7 @@ export default function Banner() {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide className="cursor-pointer">
+        <SwiperSlide className="cursor-pointer block sm:hidden">
           <div className="container ml-10 md:pt-20 md:pb-10">
             <div className="grid md:grid-cols-2 ml-10">
               <div className="relative">

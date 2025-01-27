@@ -5,7 +5,7 @@ export default function Order() {
   return (
     <>
       <div className="bg-gray-100">
-        <div className="container md:ml-20 ml-10">
+        <div className="container md:ml-20 ml-6">
           <div className="md:grid grid-cols-2 md:gap-32">
             <div
               className="md:ml-20"
@@ -17,6 +17,7 @@ export default function Order() {
                 alt="Shakes"
                 width={800}
                 height={700}
+                className="object-cover md:w-full w-9/12"
               ></Image>
             </div>
             <div
@@ -24,10 +25,10 @@ export default function Order() {
               data-aos="fade-down"
               data-aos-duration="1300"
             >
-              <h1 className="text-5xl font-bold">
+              <h1 className="md:text-5xl font-bold text-2xl">
                 Order Your Favourite Coffee
               </h1>
-              <p className="py-4 text-gray-500 text-lg">
+              <p className="py-4 text-gray-500 text-lg sm:text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                 reprehenderit repellat aut molestias est, odit quos voluptatem
                 sint dicta, mollitia minima corporis accusantium optio vero?
