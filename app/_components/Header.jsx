@@ -72,16 +72,44 @@ export default function Header() {
           <PopoverGroup className="hidden lg:flex lg:gap-x-12">
             <Popover className="relative"></Popover>
 
-            <a href="#" className="text-lg/6 font-medium text-gray-900">
+            <a
+              href="#"
+              className="text-lg/6 font-medium text-gray-900"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-out-back"
+            >
               Cafe Menu
             </a>
-            <a href="#" className="text-lg/6 font-medium text-gray-900">
+            <a
+              href="#"
+              className="text-lg/6 font-medium text-gray-900"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1200"
+              data-aos-easing="ease-out-back"
+            >
               About Us
             </a>
-            <a href="#" className="text-lg/6 font-medium text-gray-900">
+            <a
+              href="#"
+              className="text-lg/6 font-medium text-gray-900"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1300"
+              data-aos-easing="ease-out-back"
+            >
               Contact Us
             </a>
-            <a href="#" className="text-lg/6 font-medium text-gray-900">
+            <a
+              href="#"
+              className="text-lg/6 font-medium text-gray-900"
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1400"
+              data-aos-easing="ease-out-back"
+            >
               Delivery Services
             </a>
           </PopoverGroup>

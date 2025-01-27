@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
@@ -19,20 +19,25 @@ export default function Banner() {
           delay: 3000,
           disableOnInteraction: false,
         }}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        // navigation={true}
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide className="cursor-pointer">
           <div className="container ml-10 md:pt-20 md:pb-10">
-            <div className="grid grid-cols-2 ml-10">
+            <div className="grid md:grid-cols-2 ml-10">
               <div className="relative">
-                <h1 className="text-8xl font-bold py-4 ">
+                <h1
+                  className="md:md:text-8xl text-4xl  font-bold py-4"
+                  data-aos="fade-right"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                >
                   Alowishus Delicious Coffee{" "}
-                  <div className="absolute top-56 mt-1 right-52">
+                  <div
+                    className="absolute top-56 mt-1 right-52 "
+                    data-aos="fade-left"
+                  >
                     <Image
                       src="/coffee/cafe.png"
                       width={80}
@@ -41,21 +46,36 @@ export default function Banner() {
                     />
                   </div>
                 </h1>
-                <p>Perfect place for some healthy and tasty milkshakes</p>
+                <p
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                >
+                  Perfect place for some healthy and tasty milkshakes
+                </p>
 
                 <div className="flex gap-4 py-6">
-                  <Button className="p-7 rounded-md shadow-lg hover:scale-105 transition-all text-lg font-normal tracking-wide">
+                  <Button
+                    className="p-7 rounded-md shadow-lg hover:scale-105 transition-all text-lg font-normal tracking-wide"
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease-in-out"
+                  >
                     Download App
                   </Button>
                   <Button
                     className="p-7 rounded-md shadow-lg hover:scale-105 transition-all text-lg font-normal tracking-wide"
+                    data-aos="fade-right"
                     variant="outline"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
                   >
                     Shop Coffee
                   </Button>
                 </div>
               </div>
-              <div className="relative">
+              <div className="relative" data-aos="fade-left">
                 <Image
                   src="/coffee/hero1.png"
                   width={600}
@@ -77,9 +97,9 @@ export default function Banner() {
 
         <SwiperSlide className="cursor-pointer">
           <div className="container ml-10 md:pt-20 md:pb-10">
-            <div className="grid grid-cols-2 ml-10">
+            <div className="grid md:grid-cols-2 ml-10">
               <div className="relative">
-                <h1 className="text-8xl font-bold py-4 ">
+                <h1 className="md:md:text-8xl text-4xl text-3xl font-bold py-4 ">
                   Alowishus Delicious Coffee{" "}
                   <div className="absolute top-56 mt-1 right-52">
                     <Image

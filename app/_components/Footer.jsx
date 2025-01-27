@@ -4,7 +4,11 @@ const footer = () => {
   return (
     <div className="bg-gray-100">
       <div className="max-w-screen-xl py-10 px-4 sm:px-6 text-gray-800 sm:flex justify-between mx-auto">
-        <div className="p-5 sm:w-8/12">
+        <div
+          className="p-5 sm:w-8/12"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <Image
             alt=""
             src="/coffee/logo.png"
@@ -28,7 +32,11 @@ const footer = () => {
             </a>
           </div>
         </div>
-        <div className="p-5 sm:w-4/12">
+        <div
+          className="p-5 sm:w-4/12"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <h3 className="font-medium text-lg text-black-600 mb-4">
             Subscribe to our Newsletter
           </h3>

@@ -7,7 +7,7 @@ export default function Order() {
       <div className="bg-gray-100">
         <div className="container ml-20 ">
           <div className="grid grid-cols-2 gap-32">
-            <div className="ml-20">
+            <div className="ml-20" data-aos="fade-up" data-aos-duration="1300">
               <Image
                 src="/coffee/coffee-mid.png"
                 alt="Shakes"
@@ -15,7 +15,11 @@ export default function Order() {
                 height={700}
               ></Image>
             </div>
-            <div className="flex flex-col gap-2 py-20 ">
+            <div
+              className="flex flex-col gap-2 py-20 "
+              data-aos="fade-down"
+              data-aos-duration="1300"
+            >
               <h1 className="text-5xl font-bold">
                 Order Your Favourite Coffee
               </h1>

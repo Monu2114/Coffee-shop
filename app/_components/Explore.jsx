@@ -3,18 +3,24 @@ import Image from "next/image";
 export default function Explore() {
   return (
     <>
-      <div className="bg-gray-10 ">
+      <div className="bg-gray-10">
         <div className="container py-20 ">
-          <div className="grid grid-cols-6 text-center md:py-16">
-            <div className="col-start-3 col-span-3">
+          <div className="grid md:grid-cols-6 text-center md:py-16">
+            <div className="md:col-start-3 col-span-3">
               <h1 className="text-5xl font-bold">Explore Our Alowishus</h1>
               <p className="py-2 text-gray-600 text-lg">
                 A drink from our place will keep your anxiety away
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-14 w-4/5 ml-48 cursor-pointer">
-            <div className="w-80 h-[400px] shadow-lg  rounded-xl hover:shadow-xl ">
+          <div className="grid md:grid-cols-3 md:gap-14 w-4/5 ml-48 cursor-pointer">
+            <div
+              className="w-80 h-[400px] shadow-lg  rounded-xl hover:shadow-xl "
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div className="ml-4 mt-9 px-4">
                 <h1 className="text-3xl font-semibold text-gray-700 ">
                   Our Catering
@@ -34,7 +40,12 @@ export default function Explore() {
                 </Button>
               </div>
             </div>
-            <div className="w-80 h-[400px] shadow-lg rounded-xl hover:shadow-xl transition-shadow">
+            <div
+              className="w-80 h-[400px] shadow-lg rounded-xl hover:shadow-xl transition-shadow"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div className="ml-4 mt-9 px-4">
                 <h1 className="text-3xl font-semibold text-gray-700 ">
                   The Food
@@ -54,7 +65,12 @@ export default function Explore() {
                 </Button>
               </div>
             </div>
-            <div className="w-80 h-[400px] shadow-lg rounded-xl  hover:shadow-xl transition-shadow">
+            <div
+              className="w-80 h-[400px] shadow-lg rounded-xl  hover:shadow-xl transition-shadow"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div className="ml-4 mt-9 px-4">
                 <h1 className="text-3xl font-semibold text-gray-700 ">
                   The Getato

@@ -12,7 +12,13 @@ export default function Selling() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3  w-4/5 ml-28 cursor-pointer gap-80 py-20">
+        <div
+          className="grid grid-cols-3  w-4/5 ml-28 cursor-pointer gap-80 py-20"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+          data-aos-easing="ease-out-back"
+        >
           <div className="w-96 h-[380px] shadow-lg rounded-xl hover:shadow-xl relative">
             <div className="ml-4 mt-9 px-8">
               <div className="flex relative">
