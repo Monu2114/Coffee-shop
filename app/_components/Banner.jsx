@@ -36,7 +36,9 @@ export default function Banner() {
                   Alowishus Delicious Coffee{" "}
                   <div
                     className="absolute top-56 mt-1 right-52 "
-                    data-aos="fade-left"
+                    data-aos="slide-left"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in"
                   >
                     <Image
                       src="/coffee/cafe.png"
@@ -99,7 +101,7 @@ export default function Banner() {
           <div className="container ml-10 md:pt-20 md:pb-10">
             <div className="grid md:grid-cols-2 ml-10">
               <div className="relative">
-                <h1 className="md:md:text-8xl text-4xl text-3xl font-bold py-4 ">
+                <h1 className="md:md:text-8xl text-4xl  font-bold py-4 ">
                   Alowishus Delicious Coffee{" "}
                   <div className="absolute top-56 mt-1 right-52">
                     <Image
