@@ -15,8 +15,8 @@ import { FreeMode } from "swiper/modules";
 
 export default function Testimonials() {
   return (
-    <div className="container">
-      <div className="mt-28 flex flex-col gap-20 ">
+    <div className="container py-28">
+      <div className=" flex flex-col gap-10 ">
         <div className=" flex flex-col items-center gap-8 ml-52">
           <div className="flex flex-col justify-center items-center gap-6 ">
             <h1 className="text-5xl font-bold ">Client Testimonial</h1>
@@ -73,29 +73,29 @@ export default function Testimonials() {
           </div>
         </div>
 
-        <div className="ml-20">
+        <div className="ml-24 container">
           <Swiper
             slidesPerView={3}
-            spaceBetween={10}
+            spaceBetween={30}
             freeMode={true}
             modules={[FreeMode]}
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-8">
+              <div className="w-96 rounded-md border bg-white dark:bg-gray-800 shadow-lg md:m-8 hover:cursor-pointer hover:shadow-xl hover:scale-105 transition-all duration-700">
                 <div className=" bg-gray-200">
                   <Image
                     src="/coffee/girl1.png"
                     alt="Laptop"
-                    className=" w-full rounded-t-md object-cover mx-auto "
-                    width={320}
+                    className="rounded-t-md object-cover mx-auto "
+                    width={300}
                     height={320}
                   />
                 </div>
 
-                <div className="p-6 ">
+                <div className="p-7 ">
                   <div className="grid grid-cols-2 items-center">
-                    <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
+                    <h1 className="inline-flex text-lg font-bold text-gray-900 dark:text-gray-100">
                       Aayesha Ahmed
                     </h1>
                     <div className="flex gap-1">
@@ -106,42 +106,7 @@ export default function Testimonials() {
                       <Star width={20} className="text-yellow-400" />
                     </div>
                   </div>
-                  <p className=" text-lg text-gray-600 dark:text-gray-400 pt-7">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.Hic
-                    reprehenderit repellat aut molestias est, odit quos
-                    voloptatem sint dicta, mollitia minima corporis accusantium
-                    optio vero? Excepturi, debitis?
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-8">
-                <div className=" bg-gray-200">
-                  <Image
-                    src="/coffee/girl1.png"
-                    alt="Laptop"
-                    className=" w-full rounded-t-md object-cover mx-auto "
-                    width={320}
-                    height={320}
-                  />
-                </div>
-
-                <div className="p-6 ">
-                  <div className="grid grid-cols-2 items-center">
-                    <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
-                      Aayesha Ahmed
-                    </h1>
-                    <div className="flex gap-1">
-                      <Star width={20} className="text-yellow-400" />
-                      <Star width={20} className="text-yellow-400" />
-                      <Star width={20} className="text-yellow-400" />
-                      <Star width={20} className="text-yellow-400" />
-                      <Star width={20} className="text-yellow-400" />
-                    </div>
-                  </div>
-                  <p className=" text-lg text-gray-600 dark:text-gray-400 pt-7">
+                  <p className=" text-left text-balance text-gray-600 dark:text-gray-400 pt-6">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.Hic
                     reprehenderit repellat aut molestias est, odit quos
                     voloptatem sint dicta, mollitia minima corporis accusantium
@@ -151,21 +116,21 @@ export default function Testimonials() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-8">
+              <div className="w-96 rounded-md border bg-white dark:bg-gray-800 shadow-lg md:m-8 hover:cursor-pointer hover:shadow-xl hover:scale-105 transition-all duration-700">
                 <div className=" bg-gray-200">
                   <Image
-                    src="/coffee/girl1.png"
+                    src="/coffee/girl2.png"
                     alt="Laptop"
-                    className=" w-full rounded-t-md object-cover mx-auto "
-                    width={320}
+                    className="rounded-t-md object-cover mx-auto "
+                    width={328}
                     height={320}
                   />
                 </div>
 
-                <div className="p-6 ">
+                <div className="p-7 ">
                   <div className="grid grid-cols-2 items-center">
-                    <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
-                      Aayesha Ahmed
+                    <h1 className="inline-flex items-center text-xl font-bold text-black dark:text-gray-100">
+                      Liba Jadoon
                     </h1>
                     <div className="flex gap-1">
                       <Star width={20} className="text-yellow-400" />
@@ -175,7 +140,7 @@ export default function Testimonials() {
                       <Star width={20} className="text-yellow-400" />
                     </div>
                   </div>
-                  <p className=" text-lg text-gray-600 dark:text-gray-400 pt-7">
+                  <p className="text-balance text-gray-600 dark:text-gray-400 pt-6">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.Hic
                     reprehenderit repellat aut molestias est, odit quos
                     voloptatem sint dicta, mollitia minima corporis accusantium
@@ -185,20 +150,54 @@ export default function Testimonials() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="rounded-md border bg-white dark:bg-gray-800 shadow-lg transition-colors duration-500 md:m-8">
+              <div className="w-96 rounded-md border bg-white dark:bg-gray-800 shadow-lg md:m-8 hover:cursor-pointer hover:shadow-xl hover:scale-105 transition-all duration-700">
                 <div className=" bg-gray-200">
                   <Image
-                    src="/coffee/girl1.png"
+                    src="/coffee/man.png"
                     alt="Laptop"
-                    className=" w-full rounded-t-md object-cover mx-auto "
-                    width={320}
+                    className="rounded-t-md object-cover mx-auto "
+                    width={370}
                     height={320}
                   />
                 </div>
 
-                <div className="p-6 ">
+                <div className="p-7 ">
                   <div className="grid grid-cols-2 items-center">
-                    <h1 className="inline-flex items-center text-lg font-semibold text-gray-900 dark:text-gray-100">
+                    <h1 className="inline-flex items-center text-lg font-bold text-gray-900 dark:text-gray-100">
+                      Ahmed Ali
+                    </h1>
+                    <div className="flex gap-1">
+                      <Star width={20} className="text-yellow-400" />
+                      <Star width={20} className="text-yellow-400" />
+                      <Star width={20} className="text-yellow-400" />
+                      <Star width={20} className="text-yellow-400" />
+                      <Star width={20} className="text-yellow-400" />
+                    </div>
+                  </div>
+                  <p className=" text-left text-gray-600 dark:text-gray-400 pt-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.Hic
+                    reprehenderit repellat aut molestias est, odit quos
+                    voloptatem sint dicta, mollitia minima corporis accusantium
+                    optio vero? Excepturi, debitis?
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>{" "}
+            <SwiperSlide>
+              <div className="w-96 rounded-md border bg-white dark:bg-gray-800 shadow-lg md:m-8 hover:cursor-pointer hover:shadow-xl hover:scale-105 transition-all duration-700">
+                <div className=" bg-gray-200">
+                  <Image
+                    src="/coffee/girl1.png"
+                    alt="Laptop"
+                    className="rounded-t-md object-cover mx-auto "
+                    width={300}
+                    height={320}
+                  />
+                </div>
+
+                <div className="p-7 ">
+                  <div className="grid grid-cols-2 items-center">
+                    <h1 className="inline-flex text-lg font-bold text-gray-900 dark:text-gray-100">
                       Aayesha Ahmed
                     </h1>
                     <div className="flex gap-1">
@@ -209,7 +208,7 @@ export default function Testimonials() {
                       <Star width={20} className="text-yellow-400" />
                     </div>
                   </div>
-                  <p className=" text-lg text-gray-600 dark:text-gray-400 pt-7">
+                  <p className=" text-left text-balance text-gray-600 dark:text-gray-400 pt-6">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.Hic
                     reprehenderit repellat aut molestias est, odit quos
                     voloptatem sint dicta, mollitia minima corporis accusantium
